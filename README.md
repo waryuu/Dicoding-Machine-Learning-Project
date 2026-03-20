@@ -22,10 +22,20 @@ Proyek ini bertujuan untuk menyelesaikan tantangan klasifikasi/prediksi mengguna
 ## Cara Menggunakan
 1. Clone repositori ini:
    ```bash
-   git clone [https://github.com/waryuu/Dicoding-Machine-Learning-Project.git](https://github.com/waryuu/Dicoding-Machine-Learning-Project.git)
+   git clone https://github.com/waryuu/Dicoding-Machine-Learning-Project.git
 
-2. Instal dependensi yang diperlukan:
+2. Buat dan aktifkan Virtual Environment (Opsional namun Disarankan):
+   ```bash 
+   python -m venv venv
+   source venv/bin/activate
 
-Bash
-pip install -r requirements.txt
-Buka file notebook (.ipynb) menggunakan Jupyter Notebook atau Google Colab untuk melihat proses pengembangan model.
+
+3. Instal dependensi yang diperlukan:
+   ```bash
+   pip install -r requirements.txt
+
+3. Buka file notebook (.ipynb) menggunakan Jupyter Notebook, VS Code, atau Google Colab untuk melihat seluruh alur kerja, mulai dari: 
+    - Data Cleaning & Preprocessing
+    - Feature Scaling
+    - K-Means Clustering
+    - Inverse Transform & Interpretasi Cluster
